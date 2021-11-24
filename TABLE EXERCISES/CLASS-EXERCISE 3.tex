@@ -1,0 +1,47 @@
+	\documentclass{article}
+	\usepackage{rotating}
+	\usepackage[table]{xcolor}
+	\usepackage{siunitx}
+	\sisetup{
+		round-mode = places,         
+		round-precision  = 3,
+	}	
+	\begin{document}
+\begin{sidewaystable}[!ht]	
+	\begin{center}
+		
+\caption{First Semester CSC 101 Time-Table}	
+	\label{tab:table1}	
+	\begin{tabular}{l|c|c|c|c|c|c|c|c|}
+		\hline
+\textbf{Course code}  &\cellcolor{green!25} \textbf{Status} & \cellcolor{blue!35}\textbf{unit} & \cellcolor{red!35}\textbf{Time} &\cellcolor{blue!25} \textbf{Monday}  &\cellcolor{blue!25}\textbf{Tuesday}  & \cellcolor{green!20}\textbf{Wednesday} & \cellcolor{green!20}\textbf{Thursday}  & \cellcolor{green!20}\textbf{Friday}\\
+\hline
+\cellcolor{green!25}GST101 & C & 2 & 9 - 10AM & PHY 101 & MTH 101 & -& - & - \\
+\hline 
+\cellcolor{red!25}GST103  & C & 2 & 10 - 11AM & PHY 101 & MTH 101 & -&-&-\\
+\hline
+\cellcolor{blue!35}GST108 & R & 2& 11 - 12AM & CHM 101 & GST 103 & - & PHY 101 & GST 108 \\
+\hline
+\cellcolor{green!25}CHM101 & C & 3 & 12 - 13PM & CHM101 & GST 103 & PHY107 & GST 108 & GST 101\\
+\hline
+\cellcolor{red!25}CHM 107  & C & 1 & 13:00 - 14:30 & BREAK & - & BREAK & - & BREAK\\
+\hline
+\cellcolor{blue!25}MTH 101 & C & 3 & 14:30 - 15:30 &
+-& CHM107-Chm Lab
+& CSC101-comp lab &PHY 107-Phy lab &\\
+\hline
+\cellcolor{green!20}PHY101 &C & 3 & 15:30 - 16:30 & MTH 101 & CHM107- Chem lab & CHM101 & CSC 101- Comp lab & PHY 107-Phy lab\\
+\hline
+\cellcolor{blue!20}PHY107 &
+C & 1 & 16:30 - 17:30 & -  & CHM 107-Chm lab & -& CSC 101-Comp lab & PHY107=Phy lab\\
+\hline
+\cellcolor{red!20}CSC 101& C & 3 & 17:30- 18:30 & & & & & \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{sidewaystable}
+\end{document}
+
+		
+	
